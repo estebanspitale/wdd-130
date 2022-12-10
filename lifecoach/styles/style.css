@@ -210,5 +210,48 @@ footer p {
     padding-right: 20px;
     font-weight: bold;
     color: #49152E;
-    font-family: Helvetica;
+    font-family: Roboto, Helvetica;
+}
+/* ----- Subpage 2 - Sessions -----*/
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    background-color: #FAB617;
+}
+#background {
+    background-color: #094b39;
+    grid-column: 1/11;
+    grid-row: 1/9;
+}
+.session-women {
+    grid-column: 2/11;
+    grid-row: 1/5;
+    width: 1000px;
+    height: 500px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    box-shadow: 40px 40px 20px #CC0066;
+}
+#goal-sessions-img {
+    grid-column: 1/5;
+    grid-row: 5/9;
+    width: 750px;
+    height: 500px;
+    padding-top: 80px;
+    margin-left: 40px;
+    opacity: .8;
+    z-index: 1;
+}
+.sessions-msg {
+    grid-column: 3/11;
+    grid-row: 6/11;
+    color: #000000;
+    font-weight: 800;
+    text-align: center;
+    font-size: 25px;
+    z-index: 2;
+    font-family: Helvetica, sans-serif;
 }
